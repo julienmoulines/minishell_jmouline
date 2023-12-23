@@ -50,16 +50,16 @@ void	ft_delete_token(t_token *token)
 	}
 }
 
-void	find_special_token(t_commande *commande, t_token *token)
-{
-	token = commande->first_token;
-	while (token)
-	{
-		if (token->token[0] = '|')
-			ft_split_commande
-		token = token->next;
-	}
-}
+// void	find_special_token(t_commande *commande, t_token *token)
+// {
+// 	token = commande->first_token;
+// 	while (token)
+// 	{
+// 		if (token->token[0] = '|')
+// 			ft_split_commande
+// 		token = token->next;
+// 	}
+// }
 
 void	parsing(char *line, t_commande *commande, t_token *token)
 {
@@ -93,7 +93,7 @@ void	parsing(char *line, t_commande *commande, t_token *token)
 			i++;
 		}
 		token = tokenfirst;
-		find_special_token(commande, token);
+		//find_special_token(commande, token);
 	}
 }
 
