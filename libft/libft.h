@@ -6,7 +6,7 @@
 /*   By: jmouline <jul.moulines@free.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/13 20:24:31 by jmouline          #+#    #+#             */
-/*   Updated: 2023/10/12 07:20:48 by jmouline         ###   ########.fr       */
+/*   Updated: 2023/12/22 13:34:16 by jmouline         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -85,5 +85,7 @@ char		*get_next_line(int fd);
 char		*ft_strchr_gnl(const char *s, int c);
 char		*ft_strjoin_gnl(char *s1, char *s2);
 size_t		ft_strlen_gnl(const char *s);
+
+char		*get_next_line(int fd);
 
 #endif
